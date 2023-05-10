@@ -1,0 +1,141 @@
+.reservationPanel__pageContainer {
+	margin: 0 auto;
+}
+
+.reservationPanel__formContainer {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.reservationPanel__title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.reservationPanel__parkingSpaces_statuses {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.reservationPanel__parkingSpaces_status {
+	display: flex;
+	gap: 10px
+}
+
+.reservationPanel__available {
+	inline-size: 20px;
+	block-size: 20px;
+	border: 2px solid green;
+	border-radius: 50%;
+	background-color: green;
+}
+
+.reservationPanel__occupied {
+	inline-size: 20px;
+	block-size: 20px;
+	border: 2px solid red;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.reservationPanel__reserved {
+	inline-size: 20px;
+	block-size: 20px;
+	border: 2px solid darkorange;
+	border-radius: 50%;
+	background-color: darkorange;
+}
+
+.reservationPanel__parkingSpaces_filters {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.reservationPanel__parkingSpaces_filter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.reservationPanel__filter_label {
+	text-align: center;
+}
+
+.reservationPanel__levelsContainer {
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+.reservationPanel__levels {
+	display: flex;
+	gap: 20px;
+}
+
+.reservationPanel__parkingSpaces_description {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.reservationPanel__pagination__buttons {
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.reservationPanel__pagination__button {
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: 700;
+	background-color: green;
+}
+
+.reservationPanel__pagination__button:disabled {
+	background-color: blue;
+}
+
+.reservationPanel__pagination__page {
+	padding: 10px;
+	align-self: center;
+	font-weight: bold;
+}
+
+.reservationPanel__price {
+	font-weight: bold;
+}
+
+.reservationPanel__regulation {
+	text-align: center;
+	font-size: small;
+}
+
+.reservationPanel__notification {
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(34, 162, 212);
+}
+
+.reservationPanel__error {
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.reservationPanel__error_message {
+	text-align: center;
+}

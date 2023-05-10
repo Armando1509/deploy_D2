@@ -1,0 +1,33 @@
+.formParkinkgLotSelection{
+    margin: 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+.parkingLotSelection__title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.parkingLotSelection__description {
+    text-align: center;
+}
+
+ .parkingLotSelection__parkingLots {
+    margin: 15px;
+}
+
+.parkingLotSelection__notification {
+    text-align: center;
+    font-weight: bold;
+}
+
+.parkingLotSelection__error {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

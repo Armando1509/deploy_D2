@@ -1,0 +1,17 @@
+.footer{
+  background-color: #2f6690;
+  color: #fff;
+  padding: 16px;
+  font-size: 14px;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  height: 32px;
+  margin-right: 16px;
+}
