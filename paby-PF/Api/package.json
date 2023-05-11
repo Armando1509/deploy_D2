@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "stiff-books-production.up.railway.app/",
   "scripts": {
     "start": "node index.js",
     "test": "mocha -w ./tests/**/*.spec.js"
