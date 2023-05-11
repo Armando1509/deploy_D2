@@ -30,7 +30,7 @@ const App = () => {
   return (
 
     <Routes>
-      <Route path='/' element={<Landing />} />
+      <Route exact  path='/' element={<Landing />} />
       <Route path='/create-vehicle' element={<CreateVehicleView />} />
       <Route path='/home' element={<HomeView />} />
       <Route path='/parking-lot-filter' element={<ParkingLotFilterView />} />
